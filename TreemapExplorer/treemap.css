@@ -1,0 +1,133 @@
+.cell {
+  border: solid 1px white;
+  font: 9px sans-serif;
+  line-height: 11px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hasChildren {
+  text-align : center;
+  font-weight: bold;
+}
+
+body{
+	font: Arial !important;
+	background-color: #d8ebc8;
+	background-image: linear-gradient(bottom, rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgb(216,235,200) 73%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgb(216,235,200) 73%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgb(216,235,200) 73%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgb(216,235,200) 73%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgb(216,235,200) 73%);
+	
+}
+
+#header{
+	background:url(logo2.png) no-repeat #d8ebc8;
+	height: 134px;
+	width:1200px;
+	margin-bottom:25px;
+}
+
+#navigation #upperPane{
+	display:table-cell;
+}
+
+#navigation #applyBtns{
+    display:table-cell;
+
+}
+
+#singaporeMap{
+	display:none;	
+}
+
+
+#leftPanel{
+	display:table-cell;
+	border:none;
+	vertical-align:top;
+}
+
+#rightPanel{
+	display:table-cell;
+	border:none;
+}
+
+#rightPanel #rightChart{
+	margin-top: 100px;
+	border-left:thin;
+}
+
+#rightPanel #rightDesc{
+	font: Calibri;	
+	padding-left:40px;
+}
+
+/*
+#nestOrderList li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  border: solid 1px #666666;
+  padding: 2px;
+}
+*/
+
+div .scrollListbox {
+    text-align: center;
+    overflow-x: scroll;
+    max-width: 750px;
+}
+
+#nestOrderList, #availColList {
+    list-style-type: none;
+    margin: 0; padding: 0;
+    min-height: 30px; width: 3000px;
+}
+#nestOrderList li, #availColList li {
+    position: relative; float: left;
+    margin: 2px 2px 2px 5px;
+    padding: 5px;
+    font-size: 10pt;
+    width: 135px;
+    max-height: 120px;
+}
+#nestOrderList li .ui-icon, #availColList li .ui-icon {
+    position: relative; float:left;
+    margin-left: -3px;
+}
+
+#nestOrderList {
+  background-color: #b2b2b2;
+}
+
+#availColList {
+  background-color: #b2b2b2;
+}
+
+.colKeysWindow {
+  font-size: 11px;
+  margin-top: 5px;
+  height: 50px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: gray solid 1px;
+}
+
+.slider-div {
+
+}
+
+.slider-status {
+  color: #f6931f;
+}
+
+#dataTableDiv{
+  display: none;
+}
